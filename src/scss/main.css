@@ -5,9 +5,17 @@
   box-sizing: border-box;
 }
 
-body {
-  min-height: 100vh;
+html {
   background: #079;
-  font: 700 2.25rem "Raleway", sans-ser;
+  font: 700 2.25rem "Raleway", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background: url("./public/images/floor.jpg");
 }
 /*# sourceMappingURL=main.css.map */

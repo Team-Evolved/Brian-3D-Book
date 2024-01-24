@@ -1,2 +1,2 @@
-@import"https://fonts.googleapis.com/css2?family=Raleway&display=swap";*{margin:0;padding:0;box-sizing:border-box}body{min-height:100vh;background:#079;font:700 2.25rem "Raleway",sans-ser}
+@import"https://fonts.googleapis.com/css2?family=Raleway&display=swap";*{margin:0;padding:0;box-sizing:border-box}html{background:#079;font:700 2.25rem "Raleway",sans-serif}body{display:flex;justify-content:center;align-items:center;text-align:center;min-height:100vh;background:url("./public/images/floor.jpg")}
 /*# sourceMappingURL=main.min.css.map */

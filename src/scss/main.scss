@@ -1,10 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+@mixin d_f-c(){display:flex;justify-content: center;align-items: center;text-align: center; min-height: 100vh;}
+
 *{ margin: 0; padding: 0; box-sizing: border-box;}
 
-body{ 
-	min-height: 100vh;
-	background:#079;
-	font: 700 2.25rem 'Raleway',sans-serif;
+html{background:#079;font: 700 2.25rem 'Raleway',sans-serif;}
+
+body{
+  @include d_f-c();
+	background: url(./public/images/floor.jpg)
 }
