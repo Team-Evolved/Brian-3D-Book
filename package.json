@@ -1,0 +1,21 @@
+{
+  "name": "brian-3d-book",
+  "version": "1.0.0",
+  "description": "~//-httpswww.youtube.comwatchv=Za7PiYZlc4I",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently npm:watch:*",
+    "watch-sync": "browser-sync start --server --no-notify --files 'html*/.html',''js/*.js, 'css/*.css'",
+    "watch:sass": "sass --watch src/scss/main.scss:public/css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "concurrently": "^8.2.2",
+    "sass": "^1.70.0"
+  }
+}
