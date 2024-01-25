@@ -16,6 +16,6 @@ body {
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  background: url(./pub/images/floor.jpg);
+  background: url(public/images/floor.jpg);
 }
 /*# sourceMappingURL=main.css.map */
